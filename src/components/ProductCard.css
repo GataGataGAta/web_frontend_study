@@ -38,19 +38,6 @@
   font-size: 20px;
 }
 
-.product-card__stock {
-  margin: 0 0 16px;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.product-card__stock--available {
-  color: #1a7f37;
-}
-
-.product-card__stock--soldout {
-  color: #cf222e;
-}
 
 .product-card__button {
   width: 100%;

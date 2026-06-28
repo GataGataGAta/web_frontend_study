@@ -1,0 +1,13 @@
+.stock-badge {
+  margin: 0 0 16px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.stock-badge--available {
+  color: #1a7f37;
+}
+
+.stock-badge--soldout {
+  color: #cf222e;
+}
