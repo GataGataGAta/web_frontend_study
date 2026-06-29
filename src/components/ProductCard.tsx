@@ -1,4 +1,5 @@
 import "./ProductCard.css";
+import { PriceText } from "./PriceText";
 import { StockBadge } from "./StockBadge";
 
 type ProductCardProps = {
@@ -25,9 +26,8 @@ export function ProductCard({
 
             <p className="product-card_code">品番:{productCode}</p>
 
-            <p className="product-card_price">
-                税込み {price.toLocaleString()}円
-            </p>
+            <PriceText price={price}/>
+            
             <StockBadge inStock={inStock}/>
             
             <button className="product-card_button" disabled={!inStock}>
