@@ -1,6 +1,7 @@
 import "./ProductCard.css";
 import { PriceText } from "./PriceText";
 import { StockBadge } from "./StockBadge";
+import { CartButton } from "./CartButton";
 
 type ProductCardProps = {
     name: string;
@@ -30,9 +31,7 @@ export function ProductCard({
             
             <StockBadge inStock={inStock}/>
             
-            <button className="product-card_button" disabled={!inStock}>
-                カートに入れる
-            </button>
+            <CartButton disabled={!inStock}/>
         </div>
     </article>
     );

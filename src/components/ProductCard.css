@@ -31,19 +31,3 @@
   color: #57606a;
   font-size: 13px;
 }
-
-.product-card__button {
-  width: 100%;
-  padding: 10px 12px;
-  border: none;
-  border-radius: 6px;
-  background-color: #0969da;
-  color: #ffffff;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.product-card__button:disabled {
-  background-color: #8c959f;
-  cursor: not-allowed;
-}
